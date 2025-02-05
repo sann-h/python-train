@@ -9,7 +9,7 @@ menu = [
 ]
 
 @app.route('/data',methods=['GET','POST'])
-def handle_data():
+def handled_data():
     if request.method =='POST':
         data = request.get_json()
         menu.append(data)

@@ -1,2 +1,2 @@
 import func1
-print(func1.multiply(60,6))
+print(func1.add(60,6))
